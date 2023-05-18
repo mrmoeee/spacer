@@ -1,0 +1,29 @@
+.canvasBox,
+.titleBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleBox {
+  padding: 2rem;
+}
+
+.title {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+canvas {
+  box-shadow: 0px 0px 0.3rem white;
+}
